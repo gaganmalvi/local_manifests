@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- remove projects -->
+<remove-project name="LineageOS/android_external_wpa_supplicant_8" />
+<remove-project name="LineageOS/android_frameworks_base" />
+<remove-project name="LineageOS/android_external_sqlite" />
+<remove-project name="LineageOS/android_frameworks_av" />
+<remove-project name="LineageOS/android_external_sonivox" />
+<remove-project name="LineageOS/android_external_tremolo" />
+<remove-project name="LineageOS/android_build" />
+<!--
+<remove-project name="LineageOS/android_external_sfntly" />
+-->
+<remove-project name="LineageOS/android_external_dnsmasq" />
+<!-- end of remove projects -->
+
+<!-- add projects -->
+<project name="sujitroy/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" revision="cm-11.0" />
+<project name="sujitroy/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-11.0" />
+<project name="sujitroy/android_external_sqlite" path="external/sqlite" remote="github" revision="cm-11.0" />
+<project name="sujitroy/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-11.0" />
+<project name="sujitroy/android_external_sonivox" path="external/sonivox" remote="github" revision="cm-11.0" />
+<project name="sujitroy/android_external_tremolo" path="external/tremolo" remote="github" revision="cm-11.0" />
+<project name="sujitroy/android_build" path="build" remote="github" revision="cm-11.0" />
+<!--
+<project name="sujitroy/android_external_sfntly" path="external_wpa_supplicant_8"
+-->
+<project name="sujitroy/android_external_dnsmasq" path="external/dnsmasq"
+
+<!-- end of add projects -->
+
+</manifest>
