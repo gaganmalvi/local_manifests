@@ -1,0 +1,33 @@
+<manifest>
+
+<remove-project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="los" />
+ <remove-project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" />
+<remove-project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" />
+  <remove-project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" remote="aosp-jdc" />
+  <remove-project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="aosp-jdc"$
+  <remove-project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="los"/>
+  <remove-project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
+  <remove-project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aex" />
+  <remove-project path="device/qcom/common" name="android_device_qcom_common" remote="los" />
+
+<project name="los-hammer/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="los-15.0"/>
+<project name="los-hammer/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974" remote="github" revision="lineage-15.0-ca$
+<project name="los-hammer/android_hardware_qcom_audio" path="hardware/qcom/audio/default" remote="github" revision="los-15.0"/>
+<project name="los-hammer/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" remote="github" revision="lineage-15.0-ca$
+<project name="los-hammer/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="los-15.0"/>
+<project name="los-hammer/android_hardware_qcom_display" path="hardware/qcom/display-caf/msm8974" remote="github" revision="lineage-15.$
+<project name="los-hammer/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="los-15.0"/>
+<project name="los-hammer/android_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="github" revision="los-15.0"/>
+<project name="los-hammer/android_hardware_ril" path="hardware/ril" remote="github" revision="los-15.0"/>
+<project name="los-hammer/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="github" revision="los-15.0"/>
+<project name="sujitroy/platform_frameworks_av" path="frameworks/av" remote="github" revision="teast-1"/>
+<!--
+<project name="los-hammer/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="los-15.0"/>
+<project name="los-hammer/android_device_lge_hammerheadcaf" path="device/lge/hammerheadcaf" remote="github" revision="los-15.0-caf"/>
+-->
+<project name="los-hammer/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="los-15.0"/>
+<project name="los-hammer/android_kernel_lge_hammerhead" path="kernel/lge/hammerheadcaf" remote="github" revision="los-15.0-caf"/>
+<project name="los-hammer/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="los-15.0"/>
+<project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.0"/>
+<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="$
+</manifest>
