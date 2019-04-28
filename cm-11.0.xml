@@ -26,7 +26,7 @@
 <!--
 <project name="sujitroy/android_external_sfntly" path="external_wpa_supplicant_8"
 -->
-<project name="sujitroy/android_external_dnsmasq" path="external/dnsmasq"
+<project name="sujitroy/android_external_dnsmasq" path="external/dnsmasq">
 
 <!-- end of add projects -->
 
